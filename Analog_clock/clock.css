@@ -1,0 +1,100 @@
+.clock {
+  width: 300px;
+  height: 300px;
+  border: 10px solid black;
+  border-radius: 50%;
+  position: relative;
+  margin: 50px auto;
+  background: #fafafa;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  /* center content alignment */
+  display: block;
+}
+
+.hand {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom center;
+  transition: transform 0.5s ease-in-out;
+}
+
+#hour {
+  height: 60px;
+  width: 10px;
+  background: black;
+  transform: translateX(-50%) rotate(0deg);
+  border-radius: 5px;
+}
+
+#minute {
+  height: 90px;
+  width: 6px;
+  background: gray;
+  transform: translateX(-50%) rotate(0deg);
+  border-radius: 3px;
+}
+
+#second {
+  height: 100px;
+  width: 3px;
+  background: red;
+  transform: translateX(-50%) rotate(0deg);
+  border-radius: 3px;
+}
+
+/* Clock numbers styling */
+.number {
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  user-select: none;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+/* Position each number */
+.number1  { top: 35px;  left: 220px; }
+.number2  { top: 75px;  left: 260px; }
+.number3  { top: 135px; left: 280px; }
+.number4  { top: 195px; left: 260px; }
+.number5  { top: 235px; left: 220px; }
+.number6  { top: 255px; left: 150px; }
+.number7  { top: 235px; left: 80px;  }
+.number8  { top: 195px; left: 40px;  }
+.number9  { top: 135px; left: 20px;  }
+.number10 { top: 75px;  left: 40px;  }
+.number11 { top: 35px;  left: 80px;  }
+.number12 { top: 20px;  left: 150px; }
+
+/* Buttons container */
+#features {
+  width: 300px;
+  margin: 20px auto 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Buttons styling */
+#features button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#features button:hover {
+  background-color: #0056b3;
+}
+
+

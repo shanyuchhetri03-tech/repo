@@ -1,0 +1,19 @@
+{
+  "name": "analog_clock",
+  "version": "1.0.0",
+  "main": "clock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanyuchhetri03-tech/Static-Website.git"
+  },
+  "author": "shanyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanyuchhetri03-tech/Static-Website.git/issues"
+  },
+  "homepage": "https://github.com/shanyuchhetri03-tech/Static-Website.git#readme",
+  "description": ""
+}
